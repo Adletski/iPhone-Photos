@@ -18,12 +18,12 @@ class TabBarController: UITabBarController {
     
     func setupTabBarController() {
         tabBar.tintColor = .black
-        tabBar.backgroundColor = .gray
+        tabBar.backgroundColor = .systemGray5
     }
     
     func setupTabBarViewControllers() {
         let libraryVC = LibraryViewController()
-        let libraryIcon = UITabBarItem(title: "photo.artframe", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "photo.artframe"))
+        let libraryIcon = UITabBarItem(title: "Library", image: UIImage(systemName: "photo.artframe"), selectedImage: UIImage(systemName: "photo.artframe"))
         libraryVC.tabBarItem = libraryIcon
         
         let foryouVC = ForYouViewController()
