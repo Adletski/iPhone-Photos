@@ -14,5 +14,9 @@ class AlbumsViewController: UIViewController {
         view.backgroundColor = .white
         title = "Album"
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(libraryNCleftButtonTapped))
+        navigationItem.leftBarButtonItem?.tintColor = .black
     }
+    
+    @objc func libraryNCleftButtonTapped() { }
 }

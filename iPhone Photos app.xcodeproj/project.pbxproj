@@ -15,6 +15,7 @@
 		604A150129C04F640093E2C0 /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A150029C04F640093E2C0 /* ForYouViewController.swift */; };
 		604A150329C04F7B0093E2C0 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A150229C04F7B0093E2C0 /* AlbumsViewController.swift */; };
 		604A150529C04F8A0093E2C0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A150429C04F8A0093E2C0 /* SearchViewController.swift */; };
+		604A150729C0B7DA0093E2C0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A150629C0B7DA0093E2C0 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		604A150029C04F640093E2C0 /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		604A150229C04F7B0093E2C0 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		604A150429C04F8A0093E2C0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		604A150629C0B7DA0093E2C0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				604A150029C04F640093E2C0 /* ForYouViewController.swift */,
 				604A150229C04F7B0093E2C0 /* AlbumsViewController.swift */,
 				604A150429C04F8A0093E2C0 /* SearchViewController.swift */,
+				604A150629C0B7DA0093E2C0 /* TabBarController.swift */,
 			);
 			path = "iPhone Photos app";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				604A14EB29C041100093E2C0 /* AppDelegate.swift in Sources */,
 				604A150329C04F7B0093E2C0 /* AlbumsViewController.swift in Sources */,
 				604A14FF29C04F560093E2C0 /* LibraryViewController.swift in Sources */,
+				604A150729C0B7DA0093E2C0 /* TabBarController.swift in Sources */,
 				604A150129C04F640093E2C0 /* ForYouViewController.swift in Sources */,
 				604A14ED29C041100093E2C0 /* SceneDelegate.swift in Sources */,
 			);
