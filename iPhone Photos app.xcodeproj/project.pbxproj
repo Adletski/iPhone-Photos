@@ -19,6 +19,7 @@
 		604A150A29C0F2D70093E2C0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 604A150929C0F2D70093E2C0 /* SnapKit */; };
 		604A150C29C0F4DB0093E2C0 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A150B29C0F4DB0093E2C0 /* AlbumCollectionViewCell.swift */; };
 		604A151429C100170093E2C0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A151329C100170093E2C0 /* Models.swift */; };
+		604A151629C19EF40093E2C0 /* AlbumCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A151529C19EF40093E2C0 /* AlbumCellHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		604A150629C0B7DA0093E2C0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		604A150B29C0F4DB0093E2C0 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 		604A151329C100170093E2C0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		604A151529C19EF40093E2C0 /* AlbumCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCellHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				604A150229C04F7B0093E2C0 /* AlbumsViewController.swift */,
 				604A150B29C0F4DB0093E2C0 /* AlbumCollectionViewCell.swift */,
+				604A151529C19EF40093E2C0 /* AlbumCellHeader.swift */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604A151629C19EF40093E2C0 /* AlbumCellHeader.swift in Sources */,
 				604A151429C100170093E2C0 /* Models.swift in Sources */,
 				604A150C29C0F4DB0093E2C0 /* AlbumCollectionViewCell.swift in Sources */,
 				604A150529C04F8A0093E2C0 /* SearchViewController.swift in Sources */,

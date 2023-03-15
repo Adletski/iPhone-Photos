@@ -14,8 +14,30 @@ struct AlbumModel {
 }
 
 extension AlbumModel {
-    static let modelsArray =
+    static let modelsArray = [
         [AlbumModel(image: "thanos", title: "Недавние", quantity: "100"),
          AlbumModel(image: "thanos", title: "Whatsapp", quantity: "50"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Media", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Telegram", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Chrome", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Firefox", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Family", quantity: "30")],
+        [AlbumModel(image: "thanos", title: "Недавние", quantity: "100"),
+         AlbumModel(image: "thanos", title: "Whatsapp", quantity: "50"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30")],
+        [AlbumModel(image: "thanos", title: "Недавние", quantity: "100"),
+         AlbumModel(image: "thanos", title: "Whatsapp", quantity: "50"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
+         AlbumModel(image: "thanos", title: "Избранное", quantity: "30"),
          AlbumModel(image: "thanos", title: "Избранное", quantity: "30")]
+    ]
 }
