@@ -26,7 +26,6 @@ class AlbumCellHeader: UICollectionReusableView {
     
     lazy var button: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("All", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
         button.setTitleColor(.black, for: .normal)
         return button

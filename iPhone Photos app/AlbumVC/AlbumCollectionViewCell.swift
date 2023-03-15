@@ -43,7 +43,6 @@ class AlbumCollectionViewCell: UICollectionViewCell {
     }
     
     private func setupViews() {
-//        contentView.backgroundColor = .red
         contentView.addSubview(stack)
         stack.addArrangedSubview(image)
         stack.addArrangedSubview(title)
